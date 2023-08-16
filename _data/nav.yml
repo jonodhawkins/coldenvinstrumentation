@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Application
+  link: /apply
+- name: Course Details
+  link: /about
+- name: Course Content
+  link: /course

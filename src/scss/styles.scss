@@ -1,0 +1,28 @@
+$display-font-family:
+    "Dhurjati",
+    "Roboto",
+    "Helvetica Neue"
+;
+
+$primary: #0088aa;
+$byoice-text-color: #666;
+$btn-color: #fff;
+
+$dark: $byoice-text-color;
+$headings-font-family: $display-font-family;
+
+// .btn-primary {
+// }
+
+// $headings-font-family: $display-font-family;
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+.display-color {
+    color: $primary;
+}
+
+h1 {
+    text-transform: uppercase;
+}

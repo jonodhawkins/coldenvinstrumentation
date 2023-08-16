@@ -1,0 +1,50 @@
+<!doctype HTML>
+<html class="no-js" lang="">
+<head>
+  {% include header.html %}
+</head>
+<body>
+  <header>
+    <div class="uk-margin-remove-adjacent">
+      {% include navbar.html %}
+    </div>
+  </header>
+  <main id="pagestart">
+    {% if page.banner %}
+    <!-- page banner -->
+    <div class="bg-image shadow" {% if page.banner_image %} style="background-image: url('{{ page.banner_image }}'); background-size: cover; background-position: center;" {% endif %}>
+      <div class="h-100" style="background-color: #0088aa55;">
+        {% if page.banner_source %}
+        {% include {{ page.banner_source }} %}
+        {% else %}
+        <div class="py-5 container text-center align-items-center">
+            <div class="py-5 row">
+                <div class="col">
+                    <h1 style="color: #fff;" class="display-1 text-uppercase text-center">
+                    {% if page.banner_text %}
+                      {{ page.banner_text }}
+                    {% else %}
+                      {{ page.title }}
+                    {% endif %}
+                    </h1>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    <!-- end page banner -->
+    {% endif %}
+    <!-- begin page main -->
+    <div class="container my-5">
+      {{ content }}
+    </div>
+    <!-- end page main -->
+  </main>
+  <!-- End of Content -->
+  <footer>
+    {% include footer.html %}
+  </footer>
+  <!-- End of Footer -->
+</body>
+</html>
