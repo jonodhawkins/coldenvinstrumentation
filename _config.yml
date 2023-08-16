@@ -40,7 +40,7 @@ defaults:
     banner: true
     banner_text: false
     banner_source: false
-    banner_image: /assets/img/banner_default.jpg
+    banner_image: /assets/img/banner_default_sm.jpg
 
 # Build settings
 # theme: minima
