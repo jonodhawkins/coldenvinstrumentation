@@ -1,0 +1,12 @@
+- id: twitter
+  icon: twitter
+  link: https://twitter.com
+  link_text: cryoskills
+- id: mastodon
+  icon: mastodon
+  link: https://mastodon.social
+  link_text: cryoskills
+- id: email
+  icon: envelope-at
+  link: mailto:email@cryoskills.com
+  link_text: email (at) cryoskills.com

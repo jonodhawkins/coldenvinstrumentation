@@ -1,10 +1,22 @@
 <div class="m-3 border-top">
     <div class="container">
         <div class="row">
-        <div class="col-md-4 py-3">[NERC / UKRI logos]</div>
-        <div class="col-md-4">
-            <p class="text-center text-body-secondary border-top py-3">© 2023</p>
-        </div>
+            <div class="col-md-4 py-3">[NERC / UKRI / University logos?]</div>
+            <div class="col-md-4">
+                <p class="text-center text-body-secondary border-top py-3">© 2023</p>
+            </div>
+            <div class="col-md-4 py-3">
+                <style>
+                .coloricon {
+                    color: #{{site.basecolor}};
+                }
+                </style>
+                {% for social in site.data.social_media %}
+                    <div class="d-inline-flex align-items-center">
+                    <a class="text-decoration-none" href="{{social.link}}"><i class="bi bi-{{social.icon}} m-2 coloricon"></i>{{social.link_text}}</a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>
