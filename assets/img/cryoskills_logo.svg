@@ -10,6 +10,9 @@
    xml:space="preserve"
    inkscape:version="1.2.2 (1:1.2.2+202305151921+b0a8486541)"
    sodipodi:docname="cryoskills_logo.svg"
+   inkscape:export-filename="cryoskills_logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +29,7 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="9.5144352"
-     inkscape:cx="265.54388"
+     inkscape:cx="193.81077"
      inkscape:cy="30.059588"
      inkscape:window-width="1850"
      inkscape:window-height="1024"
@@ -207,4 +210,4 @@
            id="tspan2407"
            style="stroke-width:0.134707"
            x="153.62099"
-           y="55.541599"></tspan></text></g></g></svg>
+           y="55.541599" /></text></g></g></svg>
