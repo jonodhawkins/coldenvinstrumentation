@@ -1,8 +1,8 @@
 - name: Home
-  link: /
+  link: /index.html
 - name: Application
-  link: /apply
+  link: /apply.html
 - name: Course Details
-  link: /about
-- name: Course Content
-  link: /course
+  link: /about.html
+# - name: Course Content
+#   link: /course
