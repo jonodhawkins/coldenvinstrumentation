@@ -1,21 +1,30 @@
 <div class="m-3 border-top">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 py-3">[NERC / UKRI / University logos?]</div>
-            <div class="col-md-4">
-                <p class="text-center text-body-secondary border-top py-3">© 2023</p>
-            </div>
+        <div class="row align-items-center gx-5 py-2">
             <div class="col-md-4 py-3">
+                <img width="240px" src="{{ site.baseurl }}{% link assets/img/nerc_logo.png %}"/>
+                <p class="mt-3" style="font-size: 0.8em">
+                    Development and delivery of this course is supported by the <a href="https://ukri.org/councils/nerc/">Natural Environment Research Council</a> through grant NE/X009203/1
+                </p>
+            </div>
+            <!-- <div class="col-md-4">
+                
+            </div> -->
+            <div class="col-md-6 py-3">
+                <h5>Contact Us</h5>
                 <style>
                 .coloricon {
                     color: #{{site.basecolor}};
                 }
                 </style>
                 {% for social in site.data.social_media %}
-                    <div class="d-inline-flex align-items-center">
+                    <div class="d-inline-flex align-items-center m-1 p-1 pr-2" style="border: 1px solid #ddd; background-color: #efefef; font-size: 0.8em">
                     <a class="text-decoration-none" href="{{social.link}}"><i class="bi bi-{{social.icon}} m-2 coloricon"></i>{{social.link_text}}</a>
                 </div>
                 {% endfor %}
+                <p class="text-body-secondary py-3">
+                    2023 © CryoSkills <a href="{{ site.baseurl }}{% link about.html %}#organisers">Course Organisers</a>
+                </p>
             </div>
         </div>
     </div>
