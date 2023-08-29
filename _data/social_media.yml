@@ -1,3 +1,7 @@
+- id: github
+  icon: github
+  link: https://github.com/cryoskills
+  link_text: CryoSkills
 - id: twitter
   icon: twitter
   link: https://twitter.com
@@ -8,5 +12,5 @@
   link_text: cryoskills
 - id: email
   icon: envelope-at
-  link: mailto:email@cryoskills.com
-  link_text: email (at) cryoskills.com
+  link: mailto:enquiries@cryoskills.com
+  link_text: enquiries (at) cryoskills.com
