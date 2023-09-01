@@ -1,0 +1,21 @@
+<table class="table">
+    <!-- <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">-</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead> -->
+    <tbody>
+        {% for event in site.data.key_dates %}
+        <tr>
+            <th scope="row">
+                <span class="d-inline d-lg-none">{{ event.short_date }}</span>
+                <span class="d-lg-inline d-none">{{ event.long_date }}</span>
+            </th>
+            <td>{{ event.event }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

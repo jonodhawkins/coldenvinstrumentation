@@ -4,11 +4,11 @@
   link_text: CryoSkills
 - id: twitter
   icon: twitter
-  link: https://twitter.com
+  link: https://twitter.com/cryoskills
   link_text: cryoskills
 - id: mastodon
   icon: mastodon
-  link: https://mastodon.social
+  link: https://mastodon.social/@cryoskills
   link_text: cryoskills
 - id: email
   icon: envelope-at

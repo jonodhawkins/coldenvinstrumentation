@@ -1,39 +1,19 @@
 ---
 title: Home
 layout: default
-banner_source: apply_banner.html
+banner_source: home_banner.html
 ---
 <div class="my-5 container text-left">
     <div class="row">
       <div class="col-lg-8">
-        <h1>What is the CryoSkills course?</h1>
-        <hr/>
-        <p>
-          A week-long practical field course where you will learn to <strong>design, build and deploy sensors and instrumentation</strong> for cold regions.
-          More details <a href="{{ site.baseurl }}{% link about.html %}">here</a>.
-        </p>
-        <h2>Where will it take place?</h2>
-        <p>
-          The course will take place in sub-Arctic Norway at an activity centre in <a href="#">Haugastøl</a>.
-        </p>
-        <h2>When is it?</h2>
-        <p>
-          The course will run from <strong>02 April 2024</strong> to <strong>10 April 2024</strong>.
-          Applications close on <strong>29 October 2023</strong>.
-        </p>
-        <h2>Who is it for?</h2>
-        <p>
-          <strong>PhD students</strong> and <strong>early career researchers</strong> are welcome to apply.  Find out more about eligibility <a href="{{ site.baseurl }}/apply#list-item-2">here</a>.
-        </p>
-        <h2>How do I apply?</h2>
-        <p>
-          You will need to complete an <strong>application form</strong>, <strong>CV</strong> and <strong>EDI survey</strong>. Read details on the application process <a href="{{ site.baseurl }}{% link apply.html %}">here</a>. 
-        </p>
+        
+        {% capture main_column %}{% include home/main_column.md %}{% endcapture %}
+        {{ main_column | markdownify }}
+
       </div>
       <div class="col-lg-4 mt-3 mt-lg-0">
         <section>
           <h1>Apply Now</h1>
-          <hr/>
           <p>
             Approximately 20 fully-funded places are available for PhD students and early career researchers - funding will cover the cost of the course and the travel to and from the venue.
           </p>
@@ -45,7 +25,6 @@ banner_source: apply_banner.html
         </section>
         <section class="mt-5">
           <h1>Get in touch</h1>
-          <hr/>
           <p>
             Can't find the information you are looking for?
           </p>

@@ -1,0 +1,18 @@
+- url: contents.md
+  link: contents
+  title: Application contents
+- url: eligibility.md
+  link: eligibility
+  title: Eligibility
+- url: support.md
+  link: support
+  title: Application support
+- url: timeline.md
+  link: timeline
+  title: Timeline and application process
+- url: diversity.md
+  link: edi
+  title: Inclusivity, Diversity, Equality, and Accessibility
+# - url: data_protection.md
+#   link: data
+#   title: Data protection policy

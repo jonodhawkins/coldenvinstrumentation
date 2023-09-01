@@ -7,7 +7,7 @@ banner_image: /assets/img/egrip_cryoegg_test.jpg
     <div class="row">
         <!--- Course Location -->
         <section class="col-lg-4 order-lg-last">
-          <h1>Course Venue</h1><hr/>
+          <h1>Course Venue</h1>
           <p>
               <strong>Haugastøl Turistcenter.</strong>, Haugastøl, Norway
           </p>
@@ -18,148 +18,12 @@ banner_image: /assets/img/egrip_cryoegg_test.jpg
       </section>
 
       <div class="col-lg-8 order-lg-first my-3 my-lg-0">
+
+        {% capture about_content %}{% include about/about.md %}{% endcapture %}
+        {{ about_content | markdownify }}
         
-        <!-- Begin summary -->
-        <section>
-            <h1>The low-down</h1><hr/>
-            <p>
-                We would like to invite you to take part in a new one-week-long field course, where you will have the opportunity to learn how to build, test and deploy sensors and related instrumentation for use in cold regions (e.g. in glacial, proglacial, periglacial, and high-latitude marine environments). Approximately 20 fully-funded places are available for PhD students and early career researchers - funding will cover the cost of the course and the travel to and from the venue.
-            </p>
-        </section>
-        <!-- End summary -->
+      </div>
 
-        <!-- Key Dates -->
-        <section>
-            <h1>Key dates</h1><hr/>
-        <p>
-            <table class="table">
-                <!-- <thead>
-                  <tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">-</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                  </tr>
-                </thead> -->
-                <tbody>
-                    {% for event in site.data.key_dates %}
-                    <tr>
-                        <th scope="row">
-                            <span class="d-inline d-lg-none">{{ event.short_date }}</span>
-                            <span class="d-lg-inline d-none">{{ event.long_date }}</span>
-                        </th>
-                        <td>{{ event.event }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </p>
-        </section>
-        <!-- End Key Dates -->
-
-        <!--- Begin Course Info-->
-        <section>
-        <h1 id="#courseinfo">Course information</h1><hr/>        
-        <p>
-            This free-to-attend course provides graduate students and early career researchers with opportunities to learn how to build simple sensors and instruments that can be used for research in cold, high-latitude, and high-altitude regions. Use of such digital technology can greatly aid data collection in these regions, whilst delivering observations with lower financial and carbon costs than commercial approaches. Over the course of a week, you will learn both the theory and the practice of building an instrument to monitor environmental conditions in a cold environment. This course is designed for a wide range of technical abilities and no prior experience of engineering, electronics, or software development is required. You will deploy your instrument outdoors, most likely in the snow, and learn some field skills in the process. By the end of the course, you should have a working instrument that you can use and adapt for your own research and the skills required to deploy it in a cold environment.
-        </p>
-        <p>
-            This course will include:
-            <ul>
-                <li><u>Electronics for non-engineers</u>: introductory circuit theory, digital and analogue signals</li>
-                <li><u>Software development for non-coders</u>: using the Arduino development environment</li>
-                <li><u>Power supply</u>: solar panels, regulators, batteries</li>
-                <li><u>Communications</u>: cellular and satellite modems, wireless radio links</li>
-                <li><u>Weatherproofing</u>: choice of enclosures, ingress protection (IP) ratings, cable glands</li>
-                <li><u>Field installation</u>: poles and supports, guy ropes, snow and ice anchors, use of sledges</li>
-                <li><u>Safety</u>: safe use of tools, electrical safety, basic field safety for snow- and ice-covered sites</li>
-                <li><u>Management</u>: record-keeping, documentation, data curation, metadata management</li>
-            </ul>
-        </p>
-        </section>
-        <!--- End Course Description -->
-      
-        <!--- Begin Course Location -->
-        <section>
-            <h1>Location</h1><hr/>
-            <p>The course will be held at Haugastøl Turistcenter, a hotel and activities centre in the Norwegian mountains, roughly half-way between Oslo and Bergen. Haugastøl is a small settlement on the Hardangervidda plateau, around 1000m above sea level, and is well-known in Norway for skiing and snow-kiting in winter. This region was famously used to film the snow scenes in the Star Wars films, and has been used as a training-ground for polar expeditions since the early 20th century.</p>
-        </section>
-        <!--- End Location -->
-
-        <!--- Begin travel -->
-        <section>
-            <h1>Travel</h1><hr/>
-            <p>
-                Haugastøl is on the main railway line between Oslo and Bergen. Coming from the UK, we expect most participants to fly into Oslo on <strong>Friday 14th</strong>, stay overnight, and then travel by train to Haugastøl on <strong>Saturday 15th</strong>. We will arrange a hotel in Oslo for the group and the train to Haugastøl, so that the journey becomes part of the course experience. We can also arrange your flights. However, if you prefer to arrange all or part of the journey yourself, you are welcome to do this and then claim expenses from us. All travel and accommodation expenses will be covered by the organisers. Participants will be responsible for arranging their own travel insurance through their respective institutions.
-            </p>
-        </section>
-        <!-- End Travel-->
-
-        <!-- Begin Accomodation -->
-        <section>
-
-            <h1>Food and accommodation</h1><hr/>
-            <figure class="figure">
-                <img src="{{ site.baseurl }}{% link assets/img/haugastol.jpg %}" class="figure-img img-fluid rounded" alt="Accommodation at Haugastøl Turistcenter in the snow.">
-                <figcaption class="figure-caption">Looking across the accommodation at Haugastøl Turistcenter and Sløddfjorden. <a href="https://www.haugastol.no">Image Source.</a></figcaption>
-              </figure>
-            <h2>Food</h2>
-            <p>
-                The hotel will provide Nordic breakfast (bread, cheese, cold meat, fish, etc) and a two-course hot dinner every day. Lunch is provided in the form of extra breakfast - we'll ask you to assemble a packed lunch from the breakfast buffet each morning, and then eat it at lunchtime. We will request additional or alternative food to cater for specific dietary requirements, so please outline these in your application form.
-            </p>
-            <h2>Accommodation</h2>
-            <p>
-                The accommodation consists of self-contained apartments, each of which have a kitchenette (with a fridge, hob, microwave, sink and cooking equipment provided), so you are also welcome to bring your own food for lunches or snacks. However, there are no grocery stores nearby, so don't count on being able to pop out to buy any extras!
-            </p>
-
-            <p>
-                There are two types of apartments, and you may be allocated either type. The smaller Type A apartments are a studio, with bunk beds in the main room of the apartment. The larger Type B apartments have two bedrooms, each of which has two bunk beds.. Both types of apartments have an en-suite shower room and a living area with sofas. You will be asked to share a bedroom with at least one other person, and we will ask you individually about who you are willing to share with once you are offered a place on the course. If you have any anxieties or specific requirements about sharing accommodation, please let us know so that we can make arrangements you will feel comfortable with.
-            </p>
-        </section>
-
-        <!-- Begin Programme -->
-        <section>
-            <h1>Programme</h1><hr/>
-
-            <h2>Course duration</h2>
-
-            <p>Participants will travel to Haugastøl on Wednesday 3rd April, and teaching will run for seven days from Wednesday 3rd April until Tuesday 9th April. Participants will then travel home on Wednesday 10th April.</p>
-
-            <p>Course organisation and programme A standard day will involve lectures given in the morning, and hands-on exercises in the afternoon. Because the course content involves building your own instrument, these exercises will include learning workshop skills such as soldering, wiring, and the use of common hand tools. In addition, there will be multiple opportunities to test and operate instruments in the surrounding environment. We have allocated time within the course schedule where participants can participate in recreational activities, which include hiking, skiing, and snowkiting.</p>
-
-            <h2>Course materials</h2>
-
-            <p>All course material will be made open-access and available on the course homepage after the course. A kit for building a complete instrument, and all the tools that you will need to build it, will be provided as part of the course. You will be able to keep the completed instrument and your toolkit after the course, and we hope it will be useful for you in your future research. For the software work, we ask that you bring a laptop computer (Windows, Mac or Linux) and install the Arduino development environment before you arrive – full details will be given once you are accepted onto the course. If you are not able to bring a suitable computer, please let us know and we can lend you one.</p>
-
-            <h2>Clothing</h2>
-            <p>Haugastol is cold in April, and we expect that there will be lying snow close to the hotel during the course. You will be working outside in the snow, but you will not need “polar clothing” – the type of outdoor clothing you might wear in the winter in the UK will be suitable. In particular, you should bring a waterproof jacket, waterproof trousers and hiking boots or wellington boots. We will not go far from the hotel, so there will be plenty of opportunities to go inside and warm up if you need to. If you have concerns about clothing, require advice on what to bring, or need to borrow something suitable, please let us know. We will send out further details when you are accepted onto the course.</p>
-        </section>
-        <!-- End Programme -->
-
-        <section id="costs">
-            <h1>Costs</h1><hr/>
-            <p>
-                All expenses related to the course, including materials, travel, and subsistence, are fully covered by a NERC Advanced Training Grant.
-            </p>
-        </section>
-
-        <section id="organisers">
-            <h1>Course organisers and lecturers</h1><hr/>
-            <p>The course is organised by the following persons:</p>
-            <ul>
-                <li>Mike Prior-Jones (Cardiff University; lead organiser)</li>
-                <li>Liz Bagshaw (University of Bristol)</li>
-                <li>Simon Filhol (University of Oslo)</li>
-                <li>Donna Frater (NERC; IDEA consultant)</li>
-                <li>Jonathan Hawkins (British Antarctic Survey)</li>
-                <li>Emma Smith (University of Leeds)</li>
-                <li>Larissa van der Laan (University of Copenhagen)</li>
-                <li>Jenny Turton (Arctic Frontiers)</li>
-                <li>TJ Young (University of St Andrews)</li>
-            </ul>
-        </section>
-
-    </div>
     </div>
   </div>
 

@@ -1,0 +1,1 @@
+To help you with your application, and to allow you to ask questions of the organising team, we will run a webinar on **Friday 6th October 2023**. During the session we will talk you through the application process, give some more details of how the course will be run, and give you a chance to ask questions. The webinar will be recorded and posted on this webpage.

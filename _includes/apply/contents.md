@@ -1,0 +1,12 @@
+Please send us your application, which includes the following 3 sections:
+
+- A short research statement (max 200 words) describing your primary research project (i.e. what is your PhD project, or what your postdoctoral funding employs you to research). You are welcome to include details such as methodology, field or lab work, data processing techniques, etc. You do not need to provide a theoretical background, but please target your statement for the level of an educated geoscientist specialising in the cold regions.
+- A short statement of intent (max 200 words) that outlines (i) why you want to enrol in this course, and (ii) how you, your research, and/or your future career would benefit from attending this course.
+- A short statement (max 100 words) that describes any previous experiences that may help you understand and comprehend the course material. This may include, for example, relevant coursework, practical hobbies such as model railroading, coding activities such as Advent of Code, DIY or home improvement projects conducted by yourself or with friends and family, cold weather experience (for work or for fun). **Please note that we ask this question to only gauge the technical level for course delivery, and will not be factored in to the competitiveness of your application. Simply stating that you have no relevant experience will be considered equally competitive as having some relevant experience**.
+
+Additionally, we ask you to consider completing an optional survey that provides information about the demographic background of applicants to the course. This survey will be used to report on the diversity of applicants, and compared with the results of a similar survey of those selected to attend the course. The results will be used to revise and improve the applications process for future courses – the aim being to ensure that our advertising attracts people from a wide range of demographics, and to minimise bias in the selection process.
+
+Applications are likely to be competitive and we expect you to demonstrate the following two points in your application:
+
+- the benefit that this training will have to your programme of research
+- the benefit that this training will have to your personal and career development

@@ -19,7 +19,7 @@
                 </style>
                 {% for social in site.data.social_media %}
                     <div class="d-inline-flex align-items-center m-1 p-1 pr-2" style="border: 1px solid #ddd; background-color: #efefef; font-size: 0.8em">
-                    <a class="text-decoration-none" href="{{social.link}}"><i class="bi bi-{{social.icon}} m-2 coloricon"></i>{{social.link_text}}</a>
+                    <a class="text-decoration-none" target="_blank" href="{{social.link}}"><i class="bi bi-{{social.icon}} m-2 coloricon"></i>{{social.link_text}}</a>
                 </div>
                 {% endfor %}
                 <p class="text-body-secondary py-3">

@@ -20,6 +20,7 @@
 
 title: CryoSkills
 email: enquiries@cryoskills.com
+application_email: applications@cryoskills.com
 description: >- # this means to ignore newlines until "baseurl:"
   Want to learn how to design, build and deploy instrumentation for cold environments? CryoSkills is a NERC-funded field course for PhD students and early career researchers. Application deadline 29 October 2023 - apply now!
 baseurl: /coldenvinstrumentation # the subpath of your site, e.g. /blog
@@ -67,3 +68,5 @@ exclude:
 # exclude:
   - src/
   - node_modules/
+  - site_docs/
+  - holding_page/
