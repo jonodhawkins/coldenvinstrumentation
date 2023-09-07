@@ -13,4 +13,4 @@ Applications close on **29 October 2023**.
 **PhD students** and **early career researchers** are welcome to apply.  Find out more about eligibility [here]({{ site.baseurl }}/apply#list-item-2).
 
 ## How do I apply? 
-You will need to complete an **application form**, **CV** and **optional EDI survey**. Read details on the application process [here]({{ site.baseurl }}{% link apply.html %}). 
+You will need to complete an **application form** and **optional EDI survey**. Read details on the application process [here]({{ site.baseurl }}{% link apply.html %}). 
